@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head> 
+		<link rel="stylesheet" type="text/css" href="styles.css"> </link>
+	</head>
+
+	<body onbeforeunload="return before()" onload="return load()">
+	
+	<script src="javascript.js"></script>
+		<div id="main_wrapper">
+		<h1 id="header1"> 0 </h1>
+			<script>
+				function createElement(){
+					for(e = 0; e<10; e++){
+						i = e;
+						i++;
+							if(i<10){
+								document.write("<button id='button" + i +"'"+ "onclick='return button"+ i + "()"+"'" + ">" + i + "</button>");
+							}
+							else{
+							document.write("<button id='button" + "0" + "'" + "onclick='return button0"+"()"+"'" + ">" + "0" + "</button>");
+							}
+					}
+				}
+				createElement();
+			</script>
+			<button id="clearr" onclick="return clears()">C</button>
+			<button id="equal" onclick="return equals()"> = </button>
+		</div>
+		<div id="symbols">
+			<button id="add" onclick="return add()">+</button>
+			<button id="subtract" onclick="return subtract()">-</button>
+			<button id="multiply" onclick="return multiply()">*</button>
+			<button id="divide" onclick="return divide()">/</button>
+			
+		</div>
+		<div id="text_box">
+			<input id="textbox" type="text"></input>
+			</br>
+			<button onclick="return solve();" id="solver">Solve for X</button>
+		</div>
+	</body>
+
+
+ </html>

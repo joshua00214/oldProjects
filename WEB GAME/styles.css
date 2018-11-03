@@ -1,0 +1,43 @@
+body {
+	width:0px;
+	height: 0px;
+	margin: 0px;
+}
+
+div.author {
+	color:blue;
+background-color: white;
+width: 1000px;
+height: 200px;
+display: inline;
+position: relative;
+white-space: nowrap;
+left:300px;
+top: 100px;
+}
+div.first{
+background-color:powderblue;
+width:1000px;
+height:500px;
+
+display: inline-block;
+      }
+div.circle {
+	border-radius:50%;
+	position:absolute ;
+background-color:yellow;
+width:50px;
+height: 50px;
+display: block;
+left: 50px ;
+top: 100px;
+      }
+div.bottom {
+	background-color:black;
+position: relative;
+display: block;
+width: 100px;
+height: 10px;
+top: 425px;
+left:10px;
+        }

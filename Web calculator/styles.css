@@ -1,0 +1,72 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+
+	text-align: center;
+	
+}
+
+#main_wrapper{
+	padding: 10%;
+	padding-top: 1%;
+	
+	margin-top: 0%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+}
+
+button{
+	font-size: 4em;
+	margin: 4%;
+	width: 20%;
+	height: 20%;
+	float: left;
+	position: relative;
+	
+}
+#button0{
+	left: 28%;
+	
+	
+}
+#header1{
+	position: relative;
+	right: 5%;
+	font-size: 6em;
+	border: 10px solid black;
+	
+}
+#add, #multiply, #divide, #subtract{
+	width : 75%;
+	float: left;
+	margin-bottom:50%;
+}
+#symbols{
+	position: absolute;
+	left: 80%;
+	top: 17%;
+	
+}
+#clearr{
+	right: 28%;
+}
+#text_box{
+	text-align: center;
+	position: absolute;
+	width: 20%;
+	height: 20%;
+}
+#textbox{
+	width: 90%;
+	font-size: 2.5em;
+}
+#solver{
+	left: 7%;
+	width: 75%;
+	height: 25%;
+	font-size: 1em;
+}
+
